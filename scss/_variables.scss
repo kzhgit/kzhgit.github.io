@@ -1,0 +1,44 @@
+// _________mixin_________
+@mixin card($color) {
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  background-color: $color;
+  border-radius: 5%;
+}
+
+@mixin answer {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+// _________color_________
+$question1: #eae4e9;
+$question2: #fff1e6;
+$question3: #fde2e4;
+$question4: #fad2e1;
+$question5: #e2ece9;
+$question6: #bee1e6;
+$question7: #f0efeb;
+$question8: #dfe7fd;
+$question9: #cddafd;
+
+// ________responsive________
+$tab: 900px;
+$sp: 599px;
+
+@mixin tab {
+  @media screen and (max-width: $tab) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media screen and (max-width: $sp) {
+    @content;
+  }
+}

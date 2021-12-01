@@ -1,0 +1,110 @@
+@use "variables" as var;
+
+.qa-wrapper {
+  text-align: center;
+  .qa-heading {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 90px;
+    @include var.tab {
+      font-size: 24px;
+    }
+  }
+
+  .qa-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.qa-card {
+  width: 30%;
+  height: 300px;
+  margin-bottom: 50px;
+  position: relative;
+  @include var.tab {
+    width: 45%;
+  }
+  @include var.sp {
+    width: 80%;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 300px;
+  }
+
+  .question1 {
+    @include var.card(var.$question1);
+  }
+  .question2 {
+    @include var.card(var.$question2);
+  }
+  .question3 {
+    @include var.card(var.$question3);
+  }
+  .question4 {
+    @include var.card(var.$question4);
+  }
+  .question5 {
+    @include var.card(var.$question5);
+  }
+  .question6 {
+    @include var.card(var.$question6);
+  }
+  .question7 {
+    @include var.card(var.$question7);
+  }
+  .question8 {
+    @include var.card(var.$question8);
+  }
+  .question9 {
+    @include var.card(var.$question9);
+  }
+
+  .answer1 {
+    @include var.card(darken(var.$question1, 20%));
+    @include var.answer;
+  }
+  .answer2 {
+    @include var.card(darken(var.$question2, 20%));
+    @include var.answer;
+  }
+  .answer3 {
+    @include var.card(darken(var.$question3, 20%));
+    @include var.answer;
+  }
+  .answer4 {
+    @include var.card(darken(var.$question4, 20%));
+    @include var.answer;
+  }
+  .answer5 {
+    @include var.card(darken(var.$question5, 20%));
+    @include var.answer;
+  }
+  .answer6 {
+    @include var.card(darken(var.$question6, 20%));
+    @include var.answer;
+  }
+  .answer7 {
+    @include var.card(darken(var.$question7, 20%));
+    @include var.answer;
+  }
+  .answer8 {
+    @include var.card(darken(var.$question8, 20%));
+    @include var.answer;
+  }
+  .answer9 {
+    @include var.card(darken(var.$question9, 20%));
+    @include var.answer;
+  }
+
+  &:hover [class^="answer"] {
+    transform: rotateY(0);
+  }
+  
+  &:hover [class^="question"] {
+    transform: rotateY(180deg);
+  }
+}

@@ -1,0 +1,368 @@
+.fv-wrapper {
+  text-align: center;
+}
+.fv-wrapper .myname {
+  padding-top: 80px;
+  padding-left: 32px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  letter-spacing: 8px;
+  font-weight: normal;
+}
+.fv-wrapper .profile-img {
+  width: 40%;
+  margin: 0 auto 10px;
+}
+.fv-wrapper .profile-img img {
+  width: 100%;
+}
+.fv-wrapper .history-line {
+  width: 50%;
+  margin: 0 auto 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #747474;
+}
+.fv-wrapper .fv-heading {
+  font-size: 64px;
+  letter-spacing: 64px;
+  padding-left: 64px;
+  margin-bottom: 110px;
+}
+@media screen and (max-width: 900px) {
+  .fv-wrapper .fv-heading {
+    font-size: 40px;
+    letter-spacing: 32px;
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .fv-wrapper .fv-heading {
+    font-size: 32px;
+    letter-spacing: 20px;
+  }
+}
+
+.qa-wrapper {
+  text-align: center;
+}
+.qa-wrapper .qa-heading {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 90px;
+}
+@media screen and (max-width: 900px) {
+  .qa-wrapper .qa-heading {
+    font-size: 24px;
+  }
+}
+.qa-wrapper .qa-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.qa-card {
+  width: 30%;
+  height: 300px;
+  margin-bottom: 50px;
+  position: relative;
+}
+@media screen and (max-width: 900px) {
+  .qa-card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .qa-card {
+    width: 80%;
+  }
+}
+.qa-card p {
+  font-size: 18px;
+  line-height: 300px;
+}
+.qa-card .question1 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #eae4e9;
+  border-radius: 5%;
+}
+.qa-card .question2 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #fff1e6;
+  border-radius: 5%;
+}
+.qa-card .question3 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #fde2e4;
+  border-radius: 5%;
+}
+.qa-card .question4 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #fad2e1;
+  border-radius: 5%;
+}
+.qa-card .question5 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #e2ece9;
+  border-radius: 5%;
+}
+.qa-card .question6 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #bee1e6;
+  border-radius: 5%;
+}
+.qa-card .question7 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #f0efeb;
+  border-radius: 5%;
+}
+.qa-card .question8 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #dfe7fd;
+  border-radius: 5%;
+}
+.qa-card .question9 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #cddafd;
+  border-radius: 5%;
+}
+.qa-card .answer1 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #bdabba;
+  border-radius: 5%;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.qa-card .answer2 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #ffb880;
+  border-radius: 5%;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.qa-card .answer3 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #f6838b;
+  border-radius: 5%;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.qa-card .answer4 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #f076a4;
+  border-radius: 5%;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.qa-card .answer5 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #a4c4ba;
+  border-radius: 5%;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.qa-card .answer6 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #74bfca;
+  border-radius: 5%;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.qa-card .answer7 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #c4c0b1;
+  border-radius: 5%;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.qa-card .answer8 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #7f9ff7;
+  border-radius: 5%;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.qa-card .answer9 {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #6b91f9;
+  border-radius: 5%;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.qa-card:hover [class^=answer] {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+.qa-card:hover [class^=question] {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

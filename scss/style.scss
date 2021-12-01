@@ -1,0 +1,10 @@
+@use "fv";
+@use "qa";
+
+// _________共通レイアウト___________
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}

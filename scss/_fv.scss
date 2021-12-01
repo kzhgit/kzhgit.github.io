@@ -1,0 +1,45 @@
+@use "variables" as var;
+
+.fv-wrapper {
+  text-align: center;
+  .myname {
+    padding-top: 80px;
+    padding-left: 32px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    letter-spacing: 8px;
+    font-weight: normal;
+  }
+
+  .profile-img {
+    width: 40%;
+    margin: 0 auto 10px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .history-line {
+    width: 50%;
+    margin: 0 auto 90px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(116, 116, 116);
+  }
+
+  .fv-heading {
+    font-size: 64px;
+    letter-spacing: 64px;
+    padding-left: 64px;
+    margin-bottom: 110px;
+    @include var.tab {
+      font-size: 40px;
+      letter-spacing: 32px;
+      padding-left: 40px;
+    }
+    @include var.sp {
+      font-size: 32px;
+      letter-spacing: 20px;
+    }
+  }
+}
