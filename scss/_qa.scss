@@ -103,8 +103,18 @@
   &:hover [class^="answer"] {
     transform: rotateY(0);
   }
-  
+
   &:hover [class^="question"] {
     transform: rotateY(180deg);
+  }
+
+  @include var.sp {
+    &:active [class^="answer"] {
+      transform: rotateY(0);
+    }
+
+    &:active [class^="question"] {
+      transform: rotateY(180deg);
+    }
   }
 }
